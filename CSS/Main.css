@@ -1,0 +1,50 @@
+/*Styles for all pages*/
+
+:root {
+
+    /*colour scheme*/
+    --background:       #0E131F;
+    --border:           #38405F;
+    --primary:          #FF0035;
+    --secondary:        #59546C;
+    --container:        #8B939C;
+    --text:             #ECEDEE;
+
+    /*Status colours*/
+    --success:          #06D6A0;
+    --warning:          #FFD166;
+    --error:            #EF476F;
+
+    /*font*/
+    --font-size-s:      10px;
+    --font-size-m:      16px;
+    --font-size-l:      22px;
+    --font-size-xl:     36px;
+    font-family:        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /*spacing*/
+    --spacing-full:     20px;
+    --spacing-half:     10px;
+}
+
+body {
+    background-color: var(--background);
+
+    /*sizing and alignment*/
+    min-height:         100vh;
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+    padding:            var(--spacing-full);
+}
+
+h1 {
+    color:              var(--text);
+    text-align:         center;
+    font-size:          var(--font-size-xl);
+}
+
+h2 {
+    color:              var(--text);
+    font-size:          var(--text);
+}
